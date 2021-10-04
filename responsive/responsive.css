@@ -1,0 +1,27 @@
+body {
+  background-color: aqua;
+}
+
+@media screen and (min-width: 1200px) {
+  .comic {
+    width: 247px;
+    height: 180px;
+    background: url(https://imgs.xkcd.com/comics/self_description.png) 0px 0px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+  .comic {
+    width: 247px;
+    height: 180px;
+    background: url(https://imgs.xkcd.com/comics/self_description.png) -247px 0px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .comic {
+    width: 246px;
+    height: 180px;
+    background: url(https://imgs.xkcd.com/comics/self_description.png) -494px 0px;
+  }
+}
