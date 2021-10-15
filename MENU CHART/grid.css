@@ -1,0 +1,70 @@
+body {
+  background-color: lightcoral;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #first-col {
+    width: 45%;
+  }
+
+  #second-col {
+    width: 45%;
+  }
+
+  #third-col {
+    width: 95%;
+  }
+  #blank-1 {
+    width: 5%;
+  }
+  #blu {
+    --bs-gutter-y: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #first-col {
+    width: 100%;
+  }
+
+  #second-col {
+    width: 100%;
+  }
+
+  #third-col {
+    width: 100%;
+  }
+  #blank-1 {
+    width: 100%;
+  }
+  #blu {
+    --bs-gutter-y: 1.5rem;
+  }
+}
+
+.col-3 {
+  font-family: fantasy, sans-serif;
+  color: aqua;
+  background-color: blueviolet;
+  border: 3px solid black;
+  height: 180px;
+}
+h1 {
+  font-family: fantasy, sans-serif;
+  text-align: center;
+}
+#beef {
+  color: red;
+  background-color: Green;
+}
+#chicken {
+  color: blue;
+  background-color: red;
+}
+.col-4 {
+  background-color: pink;
+  border: 2px solid black;
+  height: 30px;
+  text-align: center;
+  color: green;
+}
