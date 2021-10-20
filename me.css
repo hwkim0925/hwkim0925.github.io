@@ -1,0 +1,18 @@
+body {
+    background-color: darkkhaki;
+    font-family: sans-serif;
+}
+#name {
+    font-size: 50px;
+}
+li {
+    font-size: 20px;
+}
+h1 {
+    font-size: 35px;
+}
+img{
+    float: right;
+    width: 50%;
+    height: 60%;
+}
